@@ -68,7 +68,7 @@ with open(logFile,"r") as fh:
         break
 ```
 We can create a module called logparser by saving the function in logparser.py
-Then later we can import it in our other scripts. I ahve also added the logparser.py in this repo. 
+Then later we can import it in our other scripts. I have also added the logparser.py in this repo. 
 Using that module will look like below.
 ```sh
 import logparser
