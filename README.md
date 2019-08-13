@@ -86,7 +86,7 @@ with open(logfile,"r") as fh:
         break
 ```
 
-For other log analyzing using this logparser, please check my other repo >> [link](https://github.com/j4jewel/python-logfile-analysis)
+### For other log analyzing using this logparser, please check my other repo >> [link](https://github.com/j4jewel/python-logfile-analysis)
 
 
 
