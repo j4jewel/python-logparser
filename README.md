@@ -4,7 +4,7 @@ Creating a python logparser to parse access_log using regular expression.
 
 This logparser will make it easy for analyzing the access_log. This will make the logline in dictionary format, which will be easier to analyse and divide according to our requirement.
 
-While normally orinting a logline form an access_log will look like the following. 
+While normally printing a logline form an access_log will look like the following. 
 ```sh
 logfile = "/root/jewel/python/access_log"
 
@@ -16,7 +16,7 @@ with open(logfile, "r") as fh:
         
         break
 ```
-Output 
+##### Output 
 
 ---
 ```sh
@@ -40,7 +40,7 @@ The above info is more understandable and easy to handle, because it is dictiory
 We are using Regular expression or regex to do this. This is the same language which is used in rewrite rules of apache. For doing this we need to import the re module. 
 ---
 ---
-Code
+##### Code
 ```sh
 import re
 
@@ -51,7 +51,7 @@ def parser(line):
   return result.groupdict()
 ```
 ---
-Calling the function
+### Calling the function
 ---
 
 ---
